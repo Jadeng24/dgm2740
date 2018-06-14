@@ -1,0 +1,27 @@
+.Footer {
+    position: fixed;
+    bottom: 0;
+    background: lightgray;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    width: 100vw;
+    max-width: 1200px;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+p {
+    font-size: 20pt;
+}
+@media(max-width:900px){
+    p {
+        font-size: 14pt;
+    }
+
+}
+
+@media(max-width:500px){
+    p {
+        font-size: 12pt;
+    }
+}
