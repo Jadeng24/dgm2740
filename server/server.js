@@ -2,9 +2,7 @@ require('dotenv').config();
 const express = require('express'),
     session = require('express-session'),
     bodyParser = require('body-parser'),
-    massive = require('massive'),
-    cors = require('cors'),
-    axios = require('axios'),
+    cors = require('cors');
 
 
 const app = express();
